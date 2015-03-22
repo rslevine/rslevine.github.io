@@ -53,9 +53,9 @@ table {
 
 /* END RESET */
 .lineseparator {
-	height: 5px;
-	background: #717171;
-	border-bottom: 5px solid #313030;
+	height: 3px;
+	background: #000000;
+	border-bottom: 5px solid #000000;
 }
 nav {
 	text-transform: uppercase;
@@ -66,9 +66,9 @@ nav {
 
 }
 .lineseparator {
-	height: 5px;
-	background: #717171;
-	border-bottom: 5px solid #313030;
+	height: 3px;
+	background: #000000;
+	border-bottom: 5px solid #000000;
 }
 
 a {
