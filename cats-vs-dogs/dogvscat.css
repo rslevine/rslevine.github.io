@@ -54,7 +54,7 @@ table {
 /* END RESET */
 .lineseparator {
 	height: 5px;
-	background: black;
+	background: #717171;
 	border-bottom: 5px solid #313030;
 }
 nav {
@@ -67,7 +67,7 @@ nav {
 }
 .lineseparator {
 	height: 5px;
-	background: black;
+	background: #717171;
 	border-bottom: 5px solid #313030;
 }
 
