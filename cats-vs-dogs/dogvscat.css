@@ -65,7 +65,12 @@ nav {
 	color: black;
 
 }
-.lineseparator
+.lineseparator {
+	height: 5px;
+	background: black;
+	border-bottom: 5px solid #313030;
+}
+
 a {
 		color: black;
 		font-family: Georgia, serif;
