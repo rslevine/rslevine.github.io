@@ -69,6 +69,7 @@ nav {
 }
 a:link {
     text-decoration: none;
+    color: black;
 }
 
 a:visited {
@@ -102,15 +103,8 @@ p {
 
 }
 
-#footerWiki { color: black;
-		font-family: Times, serif;
-		font-size: 10px;
-}
-
-
-#footerMartha { color: black;
-		font-family: Times, serif;
-		font-size: 10px;
+span {
+	color:red;
 }
 
 
