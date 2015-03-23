@@ -60,6 +60,8 @@ table {
 	border-bottom: 5px solid #000000;
 }
 nav {
+	margin: 0 auto;
+	width: 960px;
 	text-transform: uppercase;
 	font-family: Times;
 	font-style: bold;
