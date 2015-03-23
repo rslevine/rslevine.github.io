@@ -53,23 +53,30 @@ table {
 
 /* END RESET */
 
+
+body {
+	margin: 0 auto;
+	width: 80%;
+}
+
+
 img.dogvscats {  
 	display: inline-block;
 	margin-left: auto;
     margin-right: auto;
 }
 
-.lineseparator {
-	height: 0.5px;
-	background: #000000;
-	border-bottom: 5px solid #000000;
-	margin-top: 3px;
-	margin-bottom: 3px;
+
 }
 
+a li {}
+
+li { }
+
 nav {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 	display: inline-block;
-	text-align: center;
 	text-transform: uppercase;
 	font-family: Times;
 	font-weight: bold;
@@ -92,11 +99,7 @@ a:hover {
 a:active {
     text-decoration: none;
 }
-.lineseparator {
-	height: 0.5px;
-	background: #000000;
-	border-bottom: 5px solid #000000;
-}
+
 
 img.dog {display: inline-block;}
 
