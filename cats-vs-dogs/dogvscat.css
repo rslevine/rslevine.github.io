@@ -54,7 +54,7 @@ table {
 /* END RESET */
 
 img.dogvscats {  
-	display: block;
+	display: inline-block;
 	margin-left: auto;
     margin-right: auto;
 }
@@ -68,6 +68,7 @@ img.dogvscats {
 }
 
 nav {
+	display: inline-block;
 	text-align: center;
 	text-transform: uppercase;
 	font-family: Times;
