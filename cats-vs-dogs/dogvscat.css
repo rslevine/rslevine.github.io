@@ -59,8 +59,12 @@ table {
 	background: #000000;
 	border-bottom: 5px solid #000000;
 }
+.circle {
+	border-radius: 50%;
+	width: 10px;
+	height: 10px; 
+	}
 nav {
-
 
 	text-transform: uppercase;
 	font-family: Times;
