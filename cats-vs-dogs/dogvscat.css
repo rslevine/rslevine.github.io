@@ -64,6 +64,8 @@ table {
 
 nav {
 
+  margin:0 auto;
+  width:960px;
 	text-transform: uppercase;
 	font-family: Times;
 	font-style: bold;
