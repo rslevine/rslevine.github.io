@@ -98,6 +98,13 @@ a:active {
 	border-bottom: 5px solid #000000;
 }
 
+img.dog {display: inline-block;}
+
+
+img.cat {
+	display: inline-block;
+}
+
 
 }
 h1 { 	
