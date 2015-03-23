@@ -69,7 +69,7 @@ img.dogvscats {
 
 }
 
-ul {
+a li {
 	text-transform: uppercase;
 	font-family: Times;
 	font-weight: bold;
@@ -78,7 +78,7 @@ ul {
 	text-decoration: none;
 }
 
-ul { display:inline-block;}
+li { display:inline-block;}
 
 nav {
 	border-top: 3px solid black;
