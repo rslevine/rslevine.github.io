@@ -67,6 +67,21 @@ nav {
 	color: black;
 
 }
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
 .lineseparator {
 	height: 3px;
 	background: #000000;
