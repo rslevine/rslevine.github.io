@@ -64,6 +64,8 @@ table {
 	width: 10px;
 	height: 10px; 
 	color: #ffffff;
+	background: #000;
+	line-height: 100px;
 	}
 
 nav {
