@@ -68,16 +68,12 @@ img.dogvscats {
 }
 
 nav {
-
-  margin:0 auto;
-  width:960px;
+	text-align: center;
 	text-transform: uppercase;
 	font-family: Times;
-	font-style: bold;
+	font-weight: bold;
 	font-size: 200%;
 	color: black;
-
-
 }
 a:link {
     text-decoration: none;
