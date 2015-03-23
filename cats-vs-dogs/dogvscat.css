@@ -53,10 +53,10 @@ table {
 
 /* END RESET */
 
-img {
-	float: center;
-
+img.dogvscats {  margin:0 auto;
+  width:960px;
 }
+
 .lineseparator {
 	height: 0.5px;
 	background: #000000;
