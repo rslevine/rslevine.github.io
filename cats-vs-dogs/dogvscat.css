@@ -55,7 +55,7 @@ table {
 
 
 .lineseparator {
-	height: 3px;
+	height: 0.5px;
 	background: #000000;
 	border-bottom: 5px solid #000000;
 }
@@ -83,7 +83,7 @@ a:active {
     text-decoration: underline;
 }
 .lineseparator {
-	height: 3px;
+	height: 0.5px;
 	background: #000000;
 	border-bottom: 5px solid #000000;
 }
