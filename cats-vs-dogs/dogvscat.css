@@ -73,16 +73,6 @@ nav {
 	border-bottom: 5px solid #000000;
 }
 
-a {
-		color: black;
-		font-family: Georgia, serif;
-		font-size: 40px;
-		font-weight: bold;
-}
-
-a:link {
-	text-decoration: none;
-}
 
 h1 { 	
 		color: black;
@@ -107,6 +97,5 @@ p {
 		font-family: Georgia, serif;
 		font-size: 10px;
 }
-a { color: red;}
 
 
