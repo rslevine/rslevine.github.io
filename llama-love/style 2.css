@@ -53,24 +53,55 @@ table {
 /* -----------------END RESET---------------- */
 
 
-body {font-family: Helvetica;}
-
-h1 {color: black;
-	font-style: bold;
+h1 {
 	font-size: 2em;
+	color:black;
+	font-weight: bold;
+	font-family:Helvetica,sans-serif;
+	padding-bottom: 1%;
+}
+h2 {
+	font-size: .8em;
+	color: gray;
+	font-family: Helvetica,sans-serif;
+	padding-bottom: 4%;
+}
+p {
+	font-size: 1em;
+	color:black;
+	font-family: Helvetica,sans-serif;
+	line-height: 110%;
+	padding-bottom: 3%;
 }
 
-h2 {color: gray;
-	font-size: 0.3em;
-   }
+#left-article {
+	float: left;
+	width: 35%;
+	margin: 1%;
 
-article {color: black;
-		 font-size: 0.5em;
-}   
+}
+
+#left-article p {
+	width: 95%;
+}
 
 
-img {float: right
+#left-llama {
+	float: left;
+	margin: 2%;
+}
 
+#right-article {
+	float: left;
+	width: 35%;
+	margin: 1%;
+}
 
+#right-llama {
+	float: left;
+	margin: 2%;
+}
 
+#main-content {
+	margin: 5%;
 }

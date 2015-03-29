@@ -55,11 +55,10 @@ table {
 body {
 	margin: 0 auto;
 	width: 80%;
+	
 }
 
 header {
-	
-	background-color: green;
 	text-align: center;
 
 }
@@ -67,13 +66,13 @@ header {
 
 
 #main-content {
-	background-color: blue;
-	text-align: center;
+	width: 80%;
+	margin-left: 20%;
+	margin-right:20%;
 }
 
 #main-nav{
 	
-	background-color: yellow;
 	border-top: solid black;
 	border-bottom: solid black;
 
@@ -81,37 +80,79 @@ header {
 
 #main-nav li {
 	display: inline-block;
-	margin: 20px;
+	margin:10px;
+	
+}
+
+#main-nav a { 
 	text-decoration: none;
+	color: black;
+	font-weight: bold;
+
 }
 
-article {
-	display: inline-block;
-	margin: 10px;
+#dog-article {
 	float: left;
-	width: 45%;
+	width: 35%;
+	margin: 2%;
+
+}
+#dog-img {
+	margin-bottom: 4%;
 }
 
+h2 {
+	font-weight: bold;
+	font-size: 175%;
+	margin-bottom: 4%;
+}
 
+p {
+	font-size: 110%;
+	line-height: 120%;
+	margin-bottom: 4%;
+}
+
+#cat-article {
+	float: left;
+	width: 35%;
+	margin: 2%;
+
+}
+
+#cat-img {
+	margin-bottom: 4%;
+}
 footer {
 	clear:both;
-	background-color: teal;
+	border-top: solid black;
 	width: 100%;
+
 
 }
 
 
 #wiki {
 	float:left;
-	width: 30%;
+	margin-top: 1%;
+	margin-left: 22%;
+}
+
+#wiki a{
+	text-decoration: none;
+	color: red;
 }
 
 #martha {
 	float: right;
-	width: 21%;
+	margin-right: 20%;
+	margin-top: 1%;
 }
 
-
+#martha a {
+	text-decoration: none;
+	color: red;
+}
 
 
 
