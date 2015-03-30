@@ -53,32 +53,70 @@ table {
 
 /* END RESET */
 
+body {
+	font-family: Helvetica;
+		width: 70%;
 
-h1 {	color: black;
-		font-family: Georgia, serif;
-		font-size: 2em;
+
 	
+}
+
+#Page-title {
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: #cc3333;
+	padding: 1%;
+	width: 73.2%;
+	color: white;
+	font-size: 150%;
+}
+
+
+
+#smoothie {
+	
+	background-color: #ffcc66;
+	padding: 3%;
+	float: left;
+	padding-bottom: 10.6%;
 
 }
 
-p {		color: black;
-		font-family: Georgia, serif;
-		font-size: 1em;
-		
-  }
+img {
+	margin-top: 12%;
+}
 
-h2 {	color: black;
-		font-family: Georgia, serif;
-		font-size: 0.75em;
-   }
+#intro {
 
-li {	color:pink;		
-		font-family: Georgia, serif;
-		font-size: 0.5em;
-	}
+font-style: italic;
+background-color: #cccc33;
+padding: 2%;
+float: left;
+width: 40%;
+color: white;
+}
 
-h3 { color: black;
-		font-family: Georgia, serif;
-		font-size: 0.75em;
+
+#recipe {
+	background-color: #cc3333;
+	padding: 2%;
+	float: left;
+	width: 40%;
+	color: white;
+}
+
+h2 {
+	font-size: 120%;
+	text-transform: bold;
+	margin-bottom: 2%;
+}
+
+#instructions {
+	background-color: #cc3333;
+	padding: 2%;
+	float: left;
+	width: 40%;
+	color: white;
+
 
 }
