@@ -47,11 +47,8 @@ footer, header, hgroup, menu, nav, section {
 
 
 body {
-	margin-left: auto;
-	margin-right: auto;
 	line-height: 1;
-	font-family: Arial;
-	width: 100%
+	
 }
 ol, ul {
 	list-style: none;
@@ -69,6 +66,21 @@ table {
 	border-spacing: 0;
 }
 
+
+
+
+
+
+
+/*###### START HERE ######*/
+body { 
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Arial;
+	width: 100%
+
+
+}
 
 a:link {
 	color: inherit;

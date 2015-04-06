@@ -103,6 +103,7 @@ header {
 }
 #dog-img {
 	margin-bottom: 4%;
+	width: 30%;
 }
 
 h2 {
@@ -126,6 +127,8 @@ p {
 
 #cat-img {
 	margin-bottom: 4%;
+	width: 60%;
+	margin-left: 10%;
 }
 footer {
 	clear:both;
