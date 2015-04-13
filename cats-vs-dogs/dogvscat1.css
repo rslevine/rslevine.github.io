@@ -160,6 +160,11 @@ footer {
       h1 { font-size: 1em;}
     h2 {font-size: .75em;}
       p {font-size: .5em;}
+      footer {font-size: .3em;}
+      #main-nav {font-size: .5em;}
+      #dog-article { float:none; width:85%; margin:0 1%; }
+    #cat-article { float:none; width:85%; margin:0 1%; }
+
 
   }
 
