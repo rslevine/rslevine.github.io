@@ -66,13 +66,12 @@ table {
 	border-spacing: 0;
 }
 
-
-
-
-
-
-
 /*###### START HERE ######*/
+
+
+
+
+
 body { 
 	margin-left: auto;
 	margin-right: auto;
@@ -98,7 +97,7 @@ a:link {
 #site-header {
 	margin: 0 auto;
 	clear: both;
-	width: 80%;
+	width: 60%;
 	
 }
 
@@ -120,7 +119,7 @@ a:link {
 #menu-wrapper{
 	background-color: #805529;
 	clear: both;
-	width: 80%;
+	width: 100%;
 	
 }
 #main-menu { 
@@ -163,14 +162,16 @@ a:link {
 
 #page {
 	float: left;
-	
+	width: 45%;
+	margin-right: 5%;
 }
 
 #sidebar {
 	color: #805529;
-	float: right;
-	
-	
+	float: left;
+	width: 45%;
+	margin-left: 5%;
+
 }
 
 #sidebar a {
@@ -213,16 +214,20 @@ a:link {
 #footer-wrapper {
 	background-color: #805529;
 	clear: both;
+
+
 }
 
 #site-footer {
 	clear: both;
+	width: 100%;
 }
 
 #footer-contact {
 	color: #ffffff;
-	clear: both;
+	
 	margin-left: 20%;
+	padding-top: 2%;
 	
 }
 
@@ -230,24 +235,22 @@ a:link {
 	width: 10%;
 	font-size: 70%;
 	padding-bottom: 20px;
-	padding-top: 2px;
+	padding-top: .5%;
 
 }
 
 #footer-contact h1 {
 	color: gray;
-	clear: both;
+	
 	text-transform: uppercase;
 	font-weight: bold;
-	padding-top: 20px;
+	
 }
 
 #footer-follow {
-	clear: both;
-	position: absolute;
-	margin-bottom: 40%;
-	right: 5px;
-	margin-right: 15%;
+	float: right;
+	width: 20%;
+	
 	
 }
 
@@ -256,16 +259,17 @@ a:link {
 	text-transform: uppercase;
 	font-weight: bold;
 	color: gray;
+	
 
 }
+
 
 
 #footer-follow img {
-	float: right;
-	width: 20%;
+	float: left;
+	width: 10%;
 
 }
-
 
 
 
