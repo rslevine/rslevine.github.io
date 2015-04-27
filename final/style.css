@@ -87,6 +87,8 @@ table {
 
 body {
 	font-family: Arial;
+	width: 100%;
+
 }
 
 
@@ -97,32 +99,30 @@ body {
 	color: #999999;
 	font-size: 200%;
 	float: left;
-	width: 49.95%;
-	padding-top: 1.2%;
-	padding-bottom: .05%;
-	padding-left: .05%;
+	padding-left: 1%;
+
+	
 
 }
 
+#top-banner {
+	width: 100%;
+	padding-top: 2%;
+
+}
 
 #mainNavBar{
-	
 	float: right;
-	width: 30%;
-	
-
+	padding-top: .5%;
+	padding-right: 1%;
 
 }
 
 #mainNavBar li{
 	
 	color: #999999;
-	float: left;
-	padding-left: 2%;
-	padding-right: 2%;
-	padding-top: 6.1%;
+	float: right;
 	font-size: 140%;
-	padding-bottom: 1%;
 
 
 }
@@ -133,9 +133,15 @@ a {
 }
 
 
-img {
-	float: left;
+#homeImage img{
 	width: 100%;
+}
+
+#workImages img {
+	float: left;
+	padding-top: 4%;
+	padding: 1.5%;
+	
 }
 
 

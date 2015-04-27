@@ -1,11 +1,55 @@
 <!DOCTYPE html>
 <html>
   <head>
+
+  <!-- Add jQuery library -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<!-- Add mousewheel plugin (this is optional) -->
+<script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+<!--END OF FANCYBOX-->
+
+<!-- SMOOTH SCROLL -->
+<script>
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
+<!-- End of SMOOTH SCROLL -->
+
+
+
   	<title>BECKY LEVINE PORTFOLIO</title>
 <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
   </head>
   <body>
 
+
+    <header id="top-banner">
     <div id="siteHeader">
     <a href="index.html">BECKY LEVINE</a>
     </div>
@@ -21,22 +65,45 @@
     <li><a href="contact.html">CONTACT</a></li>
   	</ul>
   </nav>
+  </header>
   
 
   <section id="homeImage">
   	<img src="2.jpg" alt="DuoDermis"/>
+</section>
 
 
-<section id="workPage">	
-<div id="#work">
-<img src="1.jpg" alt="DuoDermis">
-<img src="3.jpg" alt="DuoDermis">
-<img src="4.jpg" alt="SuitsI">
-<img src="5.jpg" alt="SuitsII">
-</div>
+<!--JQUERY smooth scroll-->
+
+    <div name="work"> </div>
+    <a href="#work"></a>
+
+<!--JQUERY END smooth scroll-->
+
+
+<!--JQUERY fancy box-->
+<section id="workImages">
+  <a id="work" class="fancybox" rel="group" href="1.jpg"><img src="Small1.jpg" alt="d" /></a>
+ 
+  <a class="fancybox" rel="group" href="3.jpg"><img src="Small3.jpg" alt="d" /></a>
+    <a class="fancybox" rel="group" href="4.jpg"><img src="Small4.jpg" alt="d" /></a>
+      <a class="fancybox" rel="group" href="5.jpg"><img src="Small5.jpg" alt="d" /></a>
+
+  </section>
+
+      <!--END JQUERY fancy box-->
+       
+
+
 
 
 <footer>&copy; 2015 Becky Levine</footer>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $(".fancybox").fancybox();
+  });
+</script>
 
   </body>
 </html>
