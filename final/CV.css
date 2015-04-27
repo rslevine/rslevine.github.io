@@ -70,21 +70,6 @@ table {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 body {
 	font-family: Arial;
 	width: 100%;
@@ -133,23 +118,14 @@ a {
 }
 
 
-#homeImage img{
-	width: 100%;
-}
-
-#workImages img {
-	float: left;
-	padding-top: 4%;
-	padding: 1.5%;
-	
-}
 
 
-footer {
-	float: right;
-	width: 100%;
-	color: #999999;
-}
+
+
+
+
+
+
 
 
 
