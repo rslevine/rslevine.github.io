@@ -1,14 +1,69 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
-  	<title>BECKY LEVINE CV</title>
+  	<title>BECKY LEVINE CONTACT</title>
 <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
   </head>
 
 
 <body>
 
+  <div id="top-banner">
+
+    <header id="siteHeader">
+       <a href="index.html">BECKY LEVINE</a>
+    </header>
+
+  <nav id="mainNavBar">
+  	<ul>
+  	   
+
+       <li><a href="CV.html">CV</a></li>
+          <li>&nbsp;|&nbsp;</li>
+
+       <li><a href="contact.html">CONTACT</a></li>
+       <li>&nbsp;|&nbsp;</li>
+
+       <li><a href="#work">WORK</a></li>
+         
+  	</ul>
+  </nav>
+
+  </div>
+
+  <div id="info">
 <h1>For more information email me at beckyslevine@gmail.com</h1>
+</div>
+
+
+ <div id="contact-form">    
+ <div id="contact-form">    
+
+<form id="contact" method="post" action="somewhere.php">
+<fieldset>    
+
+	<label for="name">Name</label>
+	<input type="text" name="contact[name]" placeholder="Full Name">
+
+	<label for="email">Email</label>
+	<input type="email" name="contact[email]" placeholder="name@domain.com">
+
+	<label for="phone">Message</label>
+	<textarea name="contact[message]" placeholder="enter your message"></textarea>
+
+
+<input type="submit" name="submit" id="submit" value="Send Message" />
+
+</fieldset>
+</form>
+
+</div>
+<style>
+label {display:block;}
+input, textarea { display:block;}
+</style>
+</div>
+
 
 
 

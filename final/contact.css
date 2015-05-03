@@ -35,15 +35,6 @@ footer, header, hgroup, menu, nav, section {
 
 
 
-
-
-
-
-
-
-
-
-
 body {
 	line-height: 1;
 	
@@ -65,3 +56,86 @@ table {
 }
 
 /*###### START HERE ######*/
+
+
+
+
+body {
+	font-family: Arial;
+	width: 100%;
+
+}
+
+
+
+
+#siteHeader{
+	
+	color: #999999;
+	font-size: 200%;
+	float: left;
+	padding-left: 1%;
+
+	
+
+}
+
+#top-banner {
+	width: 100%;
+	padding-top: 2%;
+
+}
+
+#mainNavBar{
+	float: right;
+	padding-top: .5%;
+	padding-right: 1%;
+
+}
+
+#mainNavBar li{
+	
+	color: #999999;
+	float: right;
+	font-size: 140%;
+
+
+}
+
+a {
+	text-decoration: none;
+	color: #999999;
+}
+
+
+
+#info {
+	float: left;
+	width: 30%;
+	padding-top: 4%;
+
+
+}
+
+
+#contact-form {
+	padding-top: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
