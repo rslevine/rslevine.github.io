@@ -73,18 +73,6 @@ table {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 body {
 	font-family: Arial;
 	width: 100%;
@@ -108,6 +96,7 @@ body {
 #top-banner {
 	width: 100%;
 	padding-top: 2%;
+	height: 40px;
 
 }
 
@@ -135,12 +124,17 @@ a {
 
 #homeImage img{
 	width: 100%;
+	padding-bottom: 2%;
 }
 
 #workImages img {
+	display: inline;
 	float: left;
-	padding-top: 4%;
-	padding: 1.5%;
+	
+	padding: 1.4%;
+
+	
+
 	
 }
 
@@ -150,6 +144,59 @@ footer {
 	width: 100%;
 	color: #999999;
 }
+
+
+
+
+
+
+
+/*CONTACT CSS*/
+
+
+
+
+#info {
+	float: left;
+	width: 100%;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	color: #999999;
+
+
+}
+
+
+#contact-form {
+	width: 50%;
+	float: left;
+}
+
+label {
+	color: #999999;
+	padding-bottom: 1%;
+	padding-top: 3.5%;
+}
+
+textarea{
+	padding: 20%;
+
+
+}
+
+fieldset {
+	padding-left: 10%;
+}
+
+#backgroundImage {
+	position: absolute;
+	width: 100%;
+	
+}
+/*CV CSS*/
+
+
+
 
 
 
