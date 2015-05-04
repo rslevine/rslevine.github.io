@@ -96,7 +96,7 @@ body {
 #top-banner {
 	width: 100%;
 	padding-top: 2%;
-	height: 40px;
+	height: 35px;
 
 }
 
@@ -124,25 +124,29 @@ a {
 
 #homeImage img{
 	width: 100%;
-	padding-bottom: 2%;
+	padding-bottom: 4%;
 }
 
 #workImages img {
-	display: inline;
-	float: left;
 	
-	padding: 1.4%;
-
+	
+	width: 33%;
 	
 
 	
+}
+
+#workImages {
+margin-left: 10px;
+
 }
 
 
 footer {
-	float: right;
+clear: both;
 	width: 100%;
 	color: #999999;
+
 }
 
 
@@ -161,16 +165,32 @@ footer {
 	width: 100%;
 	padding-top: 4%;
 	padding-bottom: 4%;
-	color: #999999;
+	
 
 
 }
 
+#contact-form h1 {
+	margin-bottom: 3%;
+}
 
 #contact-form {
-	width: 50%;
-	float: left;
+	
+	
+	margin: 0 auto;
+	width: 40%;
+	background-color: white;
+	padding: 2%;
+	opacity: 0.7;
+	color: #999999;
+	margin-top: 100px;
+
+
+
+
 }
+
+
 
 label {
 	color: #999999;
@@ -186,11 +206,17 @@ textarea{
 
 fieldset {
 	padding-left: 10%;
+	
+	
 }
 
 #backgroundImage {
 	position: absolute;
-	width: 100%;
+	
+	   left: 0px;
+   
+    z-index: -1;
+    
 	
 }
 /*CV CSS*/
@@ -198,7 +224,15 @@ fieldset {
 
 
 
-
+@media screen and (max-width:400px) {
+      #siteHeader {font-size: 140%;}
+      #mainNavBar {font-size: 70%;}
+      #top-banner {height: 30px;}
+      #workImages img {width: 32%;}
+      footer {font-size: .3em;}
+      #main-nav {font-size: .5em;}
+      #dog-article { float:none; width:85%; margin:0 1%; }
+    #cat-article { float:none; width:85%; margin:0 1%; }
 
 
 
