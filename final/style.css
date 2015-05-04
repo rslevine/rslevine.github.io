@@ -185,9 +185,6 @@ clear: both;
 	color: #999999;
 	margin-top: 100px;
 
-
-
-
 }
 
 
@@ -221,7 +218,18 @@ fieldset {
 }
 /*CV CSS*/
 
+@media screen and (max-width:912px) {
+      #siteHeader {font-size: 140%;}
+      #mainNavBar {font-size: 70%;}
+      #top-banner {height: 30px;}
+      #workImages img {width: 32%;}
+      footer {font-size: .3em;}
+      #main-nav {font-size: .5em;}
+      #dog-article { float:none; width:85%; margin:0 1%; }
+    #cat-article { float:none; width:85%; margin:0 1%; }
 
+
+912px
 
 
 @media screen and (max-width:400px) {
