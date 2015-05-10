@@ -69,12 +69,17 @@ table {
 
 
 
-
-@font-face { font-family: gotham-light; src: url("gotham-light.tff"); } 
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('Montserrat-Regular/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),  url('Montserrat-Regular/Montserrat-Regular.otf')  format('opentype'),
+	     url('Montserrat-Regular/Montserrat-Regular.woff') format('woff'), url('Montserrat-Regular/Montserrat-Regular.ttf')  format('truetype'), url('Montserrat-Regular/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 
 
 body {
-	font-family: Century-Gothic;
+	font-family: Montserrat-Regular;
 	width: 100%;
 
 }
@@ -173,7 +178,9 @@ clear: both;
 }
 
 #contact-form h1 {
+	margin-left: 10%;
 	margin-bottom: 3%;
+
 }
 
 #contact-form {
@@ -187,6 +194,25 @@ clear: both;
 	color: #999999;
 	margin-top: 100px;
 
+}
+
+#submit {
+	margin-top: 2%;
+	font-family: "Montserrat-Regular";
+	padding: .5%;
+}
+
+
+
+input {
+	
+	font-family: "Montserrat-Regular";
+}
+
+
+textarea {
+	
+	font-family: "Montserrat-Regular";
 }
 
 
