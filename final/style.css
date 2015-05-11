@@ -67,6 +67,16 @@ table {
 /*###### START HERE ######*/
 
 
+
+
+
+
+
+
+
+
+
+
 @font-face {
 	font-family:'Montserrat-Hairline';
 	src: url('Montserrat-Hairline_gdi.eot');
@@ -204,9 +214,9 @@ clear: both;
 	
 	margin: 0 auto;
 	width: 50%;
-	background-color: white;
+	background-color: rgba(255,255,255,.7);
 	padding: 2%;
-	opacity: 0.7;
+	
 	color: #999999;
 	margin-top: 100px;
 
@@ -220,11 +230,12 @@ clear: both;
 
 
 
-input {
+#submit input {
 	
 	font-family: "Montserrat-Hairline";
 	font-size: 70%;
 	padding: .85%;
+	border-style:none;
 }
 
 
@@ -280,8 +291,7 @@ fieldset {
       #workImages img {width: 32%;}
       footer {font-size: .3em;}
       #main-nav {font-size: .5em;}
-      #dog-article { float:none; width:85%; margin:0 1%; }
-    #cat-article { float:none; width:85%; margin:0 1%; }
+      
 
 
 912px
@@ -294,8 +304,7 @@ fieldset {
       #workImages img {width: 32%;}
       footer {font-size: .3em;}
       #main-nav {font-size: .5em;}
-      #dog-article { float:none; width:85%; margin:0 1%; }
-    #cat-article { float:none; width:85%; margin:0 1%; }
+    
 
 
 
