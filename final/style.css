@@ -190,6 +190,9 @@ clear: both;
 }
 
 
+input, textarea {font-family: Montserrat-Hairline;
+padding: .7%}
+
 #info {
 	float: left;
 	width: 100%;
@@ -293,14 +296,15 @@ fieldset {
       
 
 
-912px
 
 
 @media screen and (max-width:400px) {
       #siteHeader {font-size: 140%;}
-      #mainNavBar {font-size: 70%;}
+      #mainNavBar {font-size: 70%;
+      	float: left;
+      	padding-left: 1%;}
       #top-banner {height: 30px;}
-      #workImages img {width: 32%;}
+      #workImages img {width: 48%;}
       footer {font-size: .3em;}
       #main-nav {font-size: .5em;}
     
